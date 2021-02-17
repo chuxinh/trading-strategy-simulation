@@ -9,7 +9,7 @@ You can also find a related blog post on my website [here](https://www.chuxinhua
 
 **Getting started**
 
-In order to run the notebook, you need to have all required packages installed, run:
+In order to run the notebook, you need to have all the required packages installed, run:
 ```
 pip3 install -r requirements.txt
 ```
