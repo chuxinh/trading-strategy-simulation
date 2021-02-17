@@ -5,7 +5,7 @@ This repository explores the topic of dollar-cost averaging strategy for investi
 
 We are typically interested in comparing weekly (5-day) vs monthly (20-day) investment frequency. The dataset is pulled via this python package [yahoofinancials](https://github.com/JECSand/yahoofinancials). We do backtesting by randomly sampling historical prices over a 5-year period since 2016 to construct portfolios, and use hypothesis testing to see if there's any significant difference between risks and returns over the studied period.
 
-You can also find a blog post on my website [here](https://www.chuxinhuang.com/).
+You can also find a related blog post on my website [here](https://www.chuxinhuang.com/).
 
 **Getting started**
 
