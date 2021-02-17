@@ -1,5 +1,5 @@
 # Trading Strategy Simulation
-### 📈 Comparing weekly vs monthly dollar-cost averaging trading 
+### 📈 Comparing dollar-cost averaging trading frequencies
 
 This repository explores the topic of dollar-cost averaging strategy for investing, and how risk and return of assets could change as the investment interval varies.
 
