@@ -9,7 +9,7 @@ You can also find a writeup of findings in this notebook on my website [here](ht
 
 **Getting started**
 
-In order to run the notebook, you need to have all required packages installed, run
+In order to run the notebook, you need to have all required packages installed, run:
 ```
 pip3 install -r requirements.txt
 ```
