@@ -1,5 +1,5 @@
 # Trading Strategy Simulation
-### Comparing weekly vs monthly dollar-cost averaging trading 📈
+### 📈 Comparing weekly vs monthly dollar-cost averaging trading 
 
 This repository explores the topic of dollar-cost averaging strategy for investing,and how risk and return of assets could change as the investment interval varies.
 
@@ -7,8 +7,12 @@ We are typically interested in comparing weekly (5-day) vs monthly (20-day) inve
 
 You can also find a writeup of findings in this notebook on my website [here](https://www.chuxinhuang.com/).
 
-
-### Wanna to stay in touch 📬 
+**Getting started**
+In order to run the notebook, you need to have all packages installed, run
+```
+pip3 install -r requirements.txt
+```
+### 📬 Wanna to stay in touch 
 
 I tweet about data, tech, china and art [@chuxin_h](https://twitter.com/chuxin_h) and stay up-to-date by subscribing to my [newsletter](https://cantabile.substack.com/).
 
