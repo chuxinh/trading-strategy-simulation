@@ -8,7 +8,8 @@ We are typically interested in comparing weekly (5-day) vs monthly (20-day) inve
 You can also find a writeup of findings in this notebook on my website [here](https://www.chuxinhuang.com/).
 
 **Getting started**
-In order to run the notebook, you need to have all packages installed, run
+
+In order to run the notebook, you need to have all required packages installed, run
 ```
 pip3 install -r requirements.txt
 ```
