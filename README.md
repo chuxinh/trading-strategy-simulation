@@ -1,7 +1,7 @@
 # Trading Strategy Simulation
 ### 📈 Comparing weekly vs monthly dollar-cost averaging trading 
 
-This repository explores the topic of dollar-cost averaging strategy for investing,and how risk and return of assets could change as the investment interval varies.
+This repository explores the topic of dollar-cost averaging strategy for investing, and how risk and return of assets could change as the investment interval varies.
 
 We are typically interested in comparing weekly (5-day) vs monthly (20-day) investment frequency. The dataset is pulled via this python package [yahoofinancials](https://github.com/JECSand/yahoofinancials). We do backtesting by randomly sampling historical prices over a 5-year period since 2016 to construct portfolios, and use hypothesis testing to see if there's any significant difference between risks and returns over the study period.
 
