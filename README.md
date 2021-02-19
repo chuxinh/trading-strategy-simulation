@@ -16,7 +16,7 @@ pip3 install -r requirements.txt
 
 ### 📬 Wanna to stay in touch 
 
-I tweet about data, tech, china and art [@chuxin_h](https://twitter.com/chuxin_h). 
+I tweet about data, tech, China and art [@chuxin_h](https://twitter.com/chuxin_h). 
 
 Stay up-to-date by subscribing to my [newsletter](https://cantabile.substack.com/).
 <p>&nbsp;</p>
