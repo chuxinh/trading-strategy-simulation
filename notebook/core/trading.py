@@ -34,7 +34,7 @@ class TradingSimulation:
         self.price = price
         self.same_start_date = same_start_date
 
-    def _random_stock_pick(self, df, interval, price, same_start_date) -> Tuple(np.array, np.array):
+    def _random_stock_pick(self, df, interval, price, same_start_date) -> Tuple[np.array, np.array]:
         num_records = df.shape[0]
         # to create an array per interval for sampling, need to remove extra rows
         rows_to_keep = num_records - num_records % interval
@@ -96,14 +96,14 @@ class TradingSimulation:
 
         return total_units_at_each_trade * current_price
 
-    def run_simulation(self, current_price: float, n: int = 10000) -> Tuple(List, List):
+    def run_simulation(self, current_price: float, n: int = 10000) -> Tuple[List[float], List[float]]:
         results = []
         returns = []
 
         for i in range(n):
             end_value = self._generate_end_value(current_price)
             end_return = end_value / self.amount - 1
-            simulated_results.append(end_value)
-            simulated_returns.append(end_return)
+            results.append(end_value)
+            returns.append(end_return)
 
         return results, returns
